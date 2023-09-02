@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(221, 229, 231);;
+}
+
+.title {
+    border: 2px solid powderblue;
+    margin: 30px;
+    padding: 20px;
+    align-content: center;
+}
+
+.main {
+    margin: 30px;
+    padding: 20px;
+}
+
