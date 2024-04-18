@@ -1,1 +1,1 @@
-Site at ![joemama.ink]{joemama.ink}
+Site at [joemama.ink]{joemama.ink}
