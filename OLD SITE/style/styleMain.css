@@ -1,0 +1,106 @@
+.banner {
+    background-color: #778da9;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .banner img {
+    height: 150px;
+    margin-left: 20px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 5px 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 5px 10px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ccc;
+  }
+  
+  .left-column {
+    width: 20%;
+    float: left;
+  }
+  
+  .right-column {
+    width: 80%;
+    float: left;
+    padding: 0 20px;
+  }
+  
+  .forum-section {
+    margin-bottom: 20px;
+  }
+  
+  .forum-section h2 {
+    margin-top: 0;
+  }
+  
+  .forum-thread-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .forum-thread-list li {
+    margin: 5px 0;
+  }
+  
+  .forum-thread-list li a {
+    display: block;
+    padding: 5px 10px;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .forum-thread-list li a:hover {
+    background-color: #ccc;
+  }
+  
+  .footer {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+  }

@@ -1,0 +1,37 @@
+body {
+    background-color: #778da9;
+    padding: 10px;
+    margin: 0;
+  }
+
+.Title {
+    background-color: #778da9;
+    border: 2px solid black;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 10px;
+}
+
+ /* The animation code */
+ @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1080px; top:0px;}
+    50%  {background-color:blue; left:1080px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:#778da9; left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  .jackDaniels {
+    width: 1080px;
+    height: 150px;
+    position: relative;
+    background-color: #778da9;
+    animation-name: example;
+    animation-duration: 2s;
+    align-self: center;
+  } 
